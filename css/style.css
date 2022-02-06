@@ -1,0 +1,686 @@
+html {scroll-behavior: smooth;}
+body {
+font-family: 'Poppins', sans-serif;font-size: 14px;color: #000;background: #fff;overflow-x: hidden;}
+.container, .container-lg, .container-md, .container-sm, .container-xl {max-width: 1180px;}
+
+
+.banerText {
+    position: absolute;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 80px;
+    top: 30%;
+    color: #fff;
+}
+.banerText span {
+    color: #7CD3FF;
+}
+ul.navbar-nav.custom-nav a {
+    text-transform: uppercase;
+    font-size: 15px;
+    
+    margin-left: 15px;
+}
+.navbar-light .navbar-nav .nav-link {color: #6F6F6F;}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {color: #0195DF;}
+a.navbar-brand img {
+    padding: 15px 0px;height: 80px;
+}
+a.nav-link.contactus {
+    background: #0195DF;
+    border-radius: 5px;
+    color: #fff !important;
+    width: 140px;
+    text-align: center;
+}
+a.nav-link.contactus:hover {color: #fff !important;}
+a.navbar-brand {
+    margin-right: 26%;
+}
+
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-radius: 20px !important;
+}
+
+
+.about {
+    padding: 100px 0px;
+}
+.about h2 span {
+    height: 75px;
+    width: 5px;
+    background: #0195DF;
+    display: block;
+    position: absolute;
+    top: 10px;
+    border-radius: 5px;
+    left: 0px;
+}
+
+.about h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #0A1741;
+
+}
+.about h3 {
+
+    font-size: 21px;
+    margin-top: 25px; margin-bottom: 20px; line-height: 35px;
+    font-weight: 400;
+}
+.about p {
+    font-weight: 300;
+    color: #707070;
+    line-height: 25px;
+    padding-left:0px; font-size: 14px;
+}
+
+
+
+.aboutDetails {
+    padding: 100px 0px 0;
+}
+.aboutDetails h2 span {
+    height: 75px;
+    width: 5px;
+    background: #0195DF;
+    display: block;
+    position: absolute;
+    top: 10px;
+    border-radius: 5px;
+    left: 0px;
+}
+
+.aboutDetails h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #0A1741;
+
+}
+.aboutDetails h3 {
+    padding-left: 10px;
+    font-size: 21px;
+    margin-top: 25px; margin-bottom: 20px; line-height: 35px;
+    font-weight: 400;
+}
+.aboutDetails p {
+    font-weight: 300;
+    color: #707070;
+    line-height: 25px;
+    padding-left:0px; font-size: 14px;
+}
+.ourServices {
+    background: #FAFAFA;
+    padding:100px 0 80px;
+}
+.headingCls h2 span {
+    width: 50px;
+    height: 4px;
+    border-radius: 5px;
+    display: block;
+    background: #0195DF;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.headingCls h2 {
+    font-size: 40px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #44475B;
+}
+.headingCls h2 b {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    display: block;margin-bottom: 20px;
+}
+.productRow {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;    margin-bottom: 30px;
+}
+
+.productRow img {
+    width: 100%;
+}
+.row.align-items-center {
+    max-width: 950px;
+    margin: 0px auto;
+}
+.productRow span {
+    font-size: 23px;
+    font-weight: 500;
+    color: #0195DF;
+    margin: 15px 0 10px;
+    display: block;
+}
+.productRow p span {
+    float: right;
+    text-align: right;
+    width: 50%;
+    font-size: 22px;
+    padding: 0px;
+    margin: 0px; color: #475455;
+}
+
+.productRow p {
+    font-size: 22px;
+    color: #ADB5AF;margin-bottom: 0px;
+}
+.productRow p b {
+    float: right;
+    text-align: right;
+    width: 50%;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px; color: #475455; font-weight: 700;
+}
+
+.productRow a img {
+    width: auto;
+}
+
+.productRow a {
+    border: 1px solid #49BE87;
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #49BE87;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.productRow a:hover { text-decoration: none; }
+.productRow:hover { box-shadow: 0 0 0 #eee; }
+
+.productRow:hover {
+    box-shadow: 0px 10px 30px #eee;
+}
+.productRow a:hover { border: 1px solid #0195DF; }
+.testimonials {
+    padding: 100px 0 50px;
+}
+
+.accordion {
+    max-width: 900px;
+    margin: 0px  auto;
+}
+#main #faq .card {
+  margin-bottom: 15px;
+  border: 0;
+}
+#main #faq .card .card-header .btn-header-link {
+  color: #595959;
+  display: block;
+  text-align: left;
+  color: #222;
+  padding:5px;
+}
+/*#main #faq .card .card-header .btn-header-link:after {
+  content: "\f107";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  float: right;
+}*/
+#main #faq .card .card-header .btn-header-link.collapsed {
+  color: #595959;
+}
+/*#main #faq .card .card-header .btn-header-link.collapsed:after {
+  content: "\f106";
+}*/
+.card-header a {
+    margin: 0px;
+    height: 30px; text-decoration: none;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.card-header {background-color: rgba(0,0,0,.02);}
+.card-body {color: #7C7E8C;
+    font-weight: 300;
+    font-size: 14px;}
+
+footer {
+    background: #44475B;
+    margin-top: 90px;
+    padding: 90px 0 0;
+}
+.aboutus h5 {
+    color: #fff;
+    opacity: 0.9;
+}
+.aboutus p {
+    color: #fff;
+    opacity: 0.8;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.aboutus ul li a {
+    color: #fff;
+}
+.aboutus ul li {
+    margin-left: 17px;
+    margin-bottom: 5px; 
+}
+.aboutus a { color: #fff;
+    opacity: 0.8; text-decoration: none; font-weight: 300;}
+.aboutus a:hover {  opacity: 10; }
+.aboutus ul {
+    margin: 0px;
+    padding: 0px;list-style: none;
+}
+.aboutus ul li::before {    content: "\2022";
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+    margin-left: -1em;}
+
+.copyRight {
+    background: #44475B;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 40px;
+    color: #fff;
+    opacity: 0.7;
+}
+.card-header a img {
+    float: right;
+    margin-top: 6px;width: 12px;
+}
+.carousel-item.testimSlider {
+    height: 350px;
+    padding: 20px 120px;
+}
+.testim {
+    box-shadow: 0px 10px 40px #eee;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    min-height: 250px;
+}
+
+.testim p {
+    font-size: 16px;
+    color: #44475B;
+    font-weight: 300;
+    line-height: 30px;
+}
+.testim span {
+    font-size: 16px;
+    font-weight: 500;
+}
+.testim span b {
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    margin-top: -4px;
+}
+.testim span img {
+    float: left;
+    display: block;
+    margin-top: -14px;
+    margin-right: 10px;
+}
+
+.banerText.landingPg span {
+    color: #fff;
+    font-weight: 200;
+    font-size: 40px;
+}
+.banerText.landingPg {
+    color: #7FD4FF;
+    font-weight: 600;
+    font-size: 60px;
+    top: 20px;
+    line-height: 60px;
+}
+.cardview {
+    background: #0195DF;
+    border-radius: 5px;padding: 30px;
+}
+.pagedetail h3 {
+    font-weight: 500;
+    font-size: 35px;
+    color: #0A1741;
+    padding-left: 0px;
+}
+.pagedetail h4 {
+    font-size: 20px;
+}
+.pagedetail ul li {
+    margin-left: 30px;
+    color: #707070;
+    margin-bottom: 5px;
+}
+
+.pagedetail ul h2 {
+    font-size: 22px;
+}
+.pagedetail ul {
+    padding: 0px;
+    margin: 0px; margin-bottom: 20px;
+}
+.pagedetail .productRow { border: 1px solid #eee; }
+.pagedetail .productRow p {
+    font-size: 20px;
+    color: #ADB5AF;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.pagedetail  .productRow p span {    font-size: 20px;}
+.pagedetail  .productRow p b {
+    font-size: 22px;
+    font-weight: 600;
+}
+.pagedetail .carousel-indicators .active {
+    opacity: 1;
+    background: #0195DF;
+}
+
+.pagedetail .carousel-indicators li {
+    border: 1px solid #ccc;
+}
+
+
+.pagedetail .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 20px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+h3.mgnTop {
+    margin-top: 60px;
+}
+.pagedetail .carousel-indicators {
+    bottom: -20px;}
+
+.cardview p span {
+    float: right;
+}
+
+.cardview p {
+    font-size: 20px;
+    color: #fff;    margin-bottom: 5px;
+}
+.cardview p i {
+    font-weight: 600;
+    font-size:20px;
+    font-style: inherit;
+}
+.cardview p b {
+    font-weight: 600;
+    font-size:20px; float: right;
+    font-style: inherit;
+}
+.times {
+    border-top: 1px solid #0189CD;
+    margin-top: 20px;
+    padding-top: 20px;font-size: 20px;
+    color: #fff;
+}
+.times a {
+    font-weight: 400;
+    font-size: 17px;
+    background: #fff;
+    padding: 11px;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #0195DF;
+}
+.times a:hover { text-decoration: none; }
+.times span p {
+    vertical-align: -10px;
+    display: contents;
+}
+.times span b {
+    float: left;
+    font-weight: 700;
+    vertical-align: 17px;
+    padding-right: 6px;
+}
+
+.times span {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+/* Mobile Css  */
+@media screen and (max-width: 767px) and (min-width: 320px) {
+a.navbar-brand img {
+    padding: 5px 0px;
+    height: 48px;
+}
+.banerText {
+    font-size: 28px;
+    line-height: 32px;
+    top: 20%;
+}
+.about {
+    padding: 50px 0px;
+}
+.about h2 {
+    font-size: 30px;
+    font-weight: 600;padding-left: 25px;
+}
+.about h2 span {
+    height: 60px;
+    top: 5px;
+    left: 20px;
+}
+.about h3 {
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.aboutImg img {
+    width: 100%;
+}
+.ourServices {
+    background: #FAFAFA;
+    padding: 50px 0 30px;
+}
+.headingCls h2 {
+    font-size: 30px;
+}
+.headingCls h2 b {
+    font-size: 15px;padding: 0 30px;
+}
+.headingCls h2 b br { display: none; }
+.productRow span {
+    font-size: 20px;
+}
+.productRow p {
+    font-size: 18px;
+}
+.productRow p span {
+    font-size: 18px;
+}
+.productRow p b {
+    font-size: 20px;
+    font-weight: 600;
+}
+.productRow a {
+    padding: 6px 15px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.testimonials {
+    padding: 50px 0 0px;
+}
+.testim p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.carousel-item.testimSlider {
+    height: 600px;
+    padding: 20px 40px;
+}
+.testim {
+    min-height: 225px;
+    margin-bottom: 30px;
+}
+.aboutus {
+    margin-bottom: 30px;
+}
+.copyRight {
+    margin-top: 0px;
+}
+
+.mobileresp .w-100 {
+    width: 190%!important;
+}
+.aboutDetails {
+    padding: 50px 0px 0;
+}
+.cardview {
+    margin-top: 50px
+}
+.banerText.landingPg span {
+    font-size: 30px;
+}
+.banerText.landingPg {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+/* iPad Css  */
+@media screen and (max-width:1270px) and (min-width:768px) {
+a.navbar-brand img {
+    padding: 5px 0px;
+    height: 48px;
+}
+.banerText {
+    font-size: 50px;
+    line-height: 60px;
+    top: 25%;
+}
+.about {
+    padding: 50px 0px;
+}
+.about h2 {
+    font-size: 30px;
+    font-weight: 600;padding-left: 25px;
+}
+.about h2 span {
+    height: 60px;
+    top: 5px;
+    left: 20px;
+}
+.about h3 {
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.aboutImg img {
+    width: 100%;
+}
+.ourServices {
+    background: #FAFAFA;
+    padding: 50px 0 30px;
+}
+.headingCls h2 {
+    font-size: 30px;
+}
+.headingCls h2 b {
+    font-size: 15px;padding: 0 30px;
+}
+.headingCls h2 b br { display: none; }
+.productRow span {
+    font-size: 20px;
+}
+.productRow p {
+    font-size: 18px;
+}
+.productRow p span {
+    font-size: 18px;
+}
+.productRow p b {
+    font-size: 20px;
+    font-weight: 600;
+}
+.productRow a {
+    padding: 6px 15px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.testimonials {
+    padding: 50px 0 0px;
+}
+.testim p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.carousel-item.testimSlider {
+    
+    padding: 20px 40px;
+}
+.testim {
+    min-height: 225px;
+    margin-bottom: 30px;
+}
+.aboutus {
+    margin-bottom: 30px;
+}
+.copyRight {
+    margin-top: 0px;
+}
+a.navbar-brand {
+    margin-right: 14%;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
